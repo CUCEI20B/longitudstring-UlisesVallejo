@@ -3,7 +3,10 @@
 using namespace std;
 
 int main() {
-    cout << "Hola Mundo!" << endl; // eliminar esta línea
+    string cadena;
+    //cin >> cadena lee hasta el primer espacio o enter
+    getline(cin, cadena);//lee hasta el primer enter
+    cout << cadena.size() << endl;
 
     return 0;
 }
